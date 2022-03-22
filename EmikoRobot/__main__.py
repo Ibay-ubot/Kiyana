@@ -461,7 +461,7 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Ibay-ubot", url="https://github.com/Ibay-ubot"),
+                    InlineKeyboardButton(text="Kiyana", url="https://github.com/Ibay-ubot"),
                     InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
                  ],
                  [
