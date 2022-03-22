@@ -83,12 +83,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/b4e7180e79949bdf0419b.jpg)
+✨ I'm an anime-theme management bot [✨](https://telegra.ph/file/b4e7180e79949bdf0419b.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
-✪ Hit /help to see my available commands.
+✨ Hit /help to see my available commands.
 """
 
 buttons = [
@@ -435,8 +435,8 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*๏ Emiko support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Emiko.",
+            text="*๏ Kiyana support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on Kiyana.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -455,8 +455,8 @@ def emiko_about_callback(update, context):
 
     elif query.data == "emiko_credit":
         query.message.edit_text(
-            text=f"๏ Credis for Emiko\n"
-            "\nHere Developers Making And Give Inspiration For Made The EmikoRobot",
+            text=f"☆ Credis for Kiyana\n"
+            "\nHere Developers Making And Give Inspiration For Made The KiyanaRobot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -798,7 +798,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Hi, i'm alive.",
+                "I'm active✨.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
