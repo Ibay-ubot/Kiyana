@@ -86,12 +86,12 @@ def ban(update: Update, context: CallbackContext) -> str:
         message.reply_text("Can't seem to find this person.")
         return log_message
     if user_id == bot.id:
-        message.reply_text("Oh yeah, ban myself, noob!")
+        message.reply_text("I can't ban myself, maybe you should learn to do that 😢")
         return log_message
 
     if is_user_ban_protected(chat, user_id, member) and user not in DEV_USERS:
         if user_id == OWNER_ID:
-            message.reply_text("Trying to put me against a King huh?")
+            message.reply_text("I can't fight my own king 👑")
         elif user_id in DEV_USERS:
             message.reply_text("I can't act against our Prince.")
         elif user_id in DRAGONS:
