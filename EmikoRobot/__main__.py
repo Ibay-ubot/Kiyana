@@ -229,7 +229,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"Hi, I'm {dispatcher.bot.first_name}. give me an order❤️.",
+            f"Hi, I'm {dispatcher.bot.first_name} How are you🙋",
             parse_mode=ParseMode.HTML
        )
 
