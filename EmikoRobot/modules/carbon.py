@@ -32,11 +32,11 @@ async def repo(_, message):
         photo=MEMEK,
         caption=f"""✨ **Hello I'm Kiyana Robot** 
 
-**Owner repo : [sena-ex](https://t.me/excrybaby)**
-**Python Version :** `{y()}`
-**Library Version :** `{o}`
-**Telethon Version :** `{s}`
-**Pyrogram Version :** `{z}`
+**Owner repo : [Ibay-ubot](https://t.me/Rendraonebot)**
+**✅Python Version :** `{y()}`
+**✅Library Version :** `{o}`
+**✅Telethon Version :** `{s}`
+**✅Pyrogram Version :** `{z}`
 
 **Create your own with click button bellow.**
 """,
