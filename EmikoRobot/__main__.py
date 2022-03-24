@@ -455,7 +455,7 @@ def emiko_about_callback(update, context):
 
     elif query.data == "emiko_credit":
         query.message.edit_text(
-            text=f"☆ Credis for Kiyana\n"
+            text=f"☆ Credit for Kiyana\n"
             "\nHere Developers Making And Give Inspiration For Made The KiyanaRobot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -634,7 +634,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Go Back",
+                                text="ɢᴏ ʙᴀᴄᴋ",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -783,7 +783,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "I'm active✨.",
+                "✨I'm active now.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
