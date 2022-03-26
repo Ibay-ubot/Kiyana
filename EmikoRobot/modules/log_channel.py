@@ -189,7 +189,7 @@ if is_module_loaded(FILENAME):
 
 
     __help__ = """
-──「 Log channel 」──
+ ☀︎︎ Log channel ☀︎︎
 
 ❂ /logchannel*:* get log channel info
 ❂ /setlog*:* set the log channel.
