@@ -84,10 +84,10 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Hello {} !*
 ✅ ɪ'ᴍ ʙᴏᴛ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ
-──────────✩───────────
+   
 ♲︎︎︎ *Uptime:* `{}`
 ♲︎︎︎ `{}` *users, across* `{}` *chats*
-──────────✩───────────
+
 ✅ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
 """
 
@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @excrybaby \
+ You can support the project by contacting @Rendraonebot \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -461,8 +461,7 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ᴋɪʏᴀɴᴀ", url="https://github.com/Ibay-ubot"),
-                    InlineKeyboardButton(text="sᴇɴᴀ-ᴇx", url="https://github.com/kennedy-ex"),
+                    InlineKeyboardButton(text="ᴋɪʏᴀɴᴀ ʀᴏʙᴏᴛ", url="https://github.com/tyesd"),
                  ],
                  [
                     
@@ -702,7 +701,7 @@ def get_settings(update: Update, context: CallbackContext):
     # ONLY send settings in PM
     if chat.type != chat.PRIVATE:
         if is_user_admin(chat, user.id):
-            text = "Click here to get this chat's settings, as well as yours."
+            text = "Click here to get this chat's settings, as well as yours✅."
             msg.reply_text(
                 text,
                 reply_markup=InlineKeyboardMarkup(
@@ -734,7 +733,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1606221784:
+        if OWNER_ID != 1891502663:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
