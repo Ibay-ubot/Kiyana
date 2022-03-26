@@ -93,12 +93,12 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴋɪʏᴀɴᴀ ʀᴏʙᴏᴛ!", callback_data="emiko_"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴋɪʏᴀɴᴀ ʀᴏʙᴏᴛ", callback_data="emiko_"),
     ],
     [
         InlineKeyboardButton(text="ɢᴇᴛ ʜᴇʟᴘ", callback_data="help_back"),
         InlineKeyboardButton(
-            text="ᴛʀʏ ɪɴʟɪɴᴇ!​​", switch_inline_query_current_chat=""
+            text="ᴛʀʏ ɪɴʟɪɴᴇ​​", switch_inline_query_current_chat=""
         ),
     ],
     [
