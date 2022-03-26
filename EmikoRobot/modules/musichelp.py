@@ -1,19 +1,24 @@
 __mod_name__ = "Music"
 
 __help__ = """
-──「 Music stream 」──              
+──「 Music Command 」──              
 
-❂ /play (query or reply audio) to playing music from yourube or your audio telegram.
-❂ /playlist (choose option) for playing your personal playlist or group playlist.
+♫︎ /play - reply to youtube url or song file to play song
+♫︎ /vplay - reply to youtube url or song file to play song
+♫︎ /song <song name> - download songs you want quickly
+♫︎ /search <query> - search videos on youtube with details
+♫︎ /lyrics <query> - search lyrics from web
 
 • Admins only
 
-❂ /auth - Add to authorized users.
-❂ /unauth - Canceling or deleting from authorized users list.
-❂ /msettings - To open panel settings on musicplayer.
-❂ /setadmin - To set all command only for admins.
-❂ /setmember - Set all command for all members.
-❂ /vol (range 1-200) - To set volume on voice calls.
+♫︎ /pause - pause song play
+♫︎ /resume - resume song play
+♫︎ /skip - play next song
+♫︎ /end - stop music play
+♫︎ /vstop - stop video stream
+♫︎ /vpause - pause video stream
+♫︎ /vresume - resume video stream
+♫︎ /vskip - skip video stream
 
 NOTE : DON'T SPAMMING AT REQUEST SONG OR VIDEO...
 """
