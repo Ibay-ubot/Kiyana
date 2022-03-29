@@ -89,6 +89,7 @@ PM_START_TEXT = """
 ♲︎︎︎ `{}` *users, across* `{}` *chats*
 
 ✅ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
+  **Maintenance by @Rendra264**
 """
 
 buttons = [
