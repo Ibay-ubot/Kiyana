@@ -16,9 +16,10 @@ APAKAH_STRING = ["Iya",
                  ]
 
 
-@register(pattern="apakah ?(.*)")
+@register(pattern="^/apakah ?(.*)")
 async def apakah(event):
     quew = event.pattern_match.group(1)
     if not quew:
+        await event.reply(random.choice(APAKAH_STRING))
         return
     await event.reply(random.choice(APAKAH_STRING))
