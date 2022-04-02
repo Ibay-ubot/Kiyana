@@ -9,6 +9,10 @@ APAKAH_STRING = ["Iya",
                  "Bisa jadi", 
                  "Mungkin Tidak",
                  "Tidak Mungkin",
+                 "YNTKTS",
+                 "Pala bapak kau pecah",
+                 "Apa iya?",
+                 "Tanya aja sama mamak kau tu pler"
                  ]
 
 
@@ -19,30 +23,3 @@ async def apakah(event):
         return
     await event.reply(random.choice(APAKAH_STRING))
 
-PERASAAN_STRING = ["gombal", 
-                 "Iya", 
-                 "Buang saja", 
-                 "Kasian mana masih muda",
-                 ]
-
-
-@register(pattern="perasaan ?(.*)")
-async def perasaan(event):
-    quew = event.pattern_match.group(2)
-    if not quew:
-        return
-    await event.reply(random.choice(PERASAAN_STRING))
-
-KAMU_STRING = ["Jelek", 
-                 "Bau", 
-                 "Kasian", 
-                 "Sangat bodoh",
-                 ]
-
-
-@register(pattern="kamu ?(.*)")
-async def kamu(event):
-    quew = event.pattern_match.group(3)
-    if not quew:
-        return
-    await event.reply(random.choice(KAMU_STRING))
