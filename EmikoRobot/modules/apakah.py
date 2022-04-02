@@ -28,7 +28,7 @@ PERASAAN_STRING = ["gombal",
 
 @register(pattern="perasaan ?(.*)")
 async def perasaan(event):
-    quew = event.pattern_match.group(1)
+    quew = event.pattern_match.group(2)
     if not quew:
         return
     await event.reply(random.choice(PERASAAN_STRING))
@@ -42,7 +42,7 @@ KAMU_STRING = ["Jelek",
 
 @register(pattern="kamu ?(.*)")
 async def kamu(event):
-    quew = event.pattern_match.group(1)
+    quew = event.pattern_match.group(3)
     if not quew:
         return
     await event.reply(random.choice(KAMU_STRING))
