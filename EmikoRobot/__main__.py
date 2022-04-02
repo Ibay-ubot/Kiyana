@@ -784,6 +784,7 @@ def main():
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
                 "✨I'm active now.",
+                "ticks = time.time()",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
