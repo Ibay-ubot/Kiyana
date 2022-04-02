@@ -26,4 +26,4 @@ async def apakah(event):
 async def apakah(event):
     quew = event.pattern_match.group(1)
     if not quew:
-    await event.replyrandom.choiceAPAKAH_STRING
+    await event.reply(random.choice(APAKAH_STRING))
