@@ -9,10 +9,6 @@ APAKAH_STRING = ["Iya",
                  "Bisa jadi", 
                  "Mungkin Tidak",
                  "Tidak Mungkin",
-                 "YNTKTS",
-                 "Pala bapak kau pecah",
-                 "Apa iya?",
-                 "Tanya aja sama mamak kau tu pler"
                  ]
 
 
