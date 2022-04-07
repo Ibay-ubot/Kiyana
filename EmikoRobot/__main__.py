@@ -230,7 +230,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"*Hi, I'm* {dispatcher.bot.first_name} *How are you*🙋 *Uptime:* `{}` ",
+            f"Hello I'm {dispatcher.bot.first_name} How are you🙋 {*Uptime:* `{}`}",
             parse_mode=ParseMode.HTML
        )
 
