@@ -88,8 +88,7 @@ PM_START_TEXT = """
 ♲︎︎︎ *Uptime:* `{}`
 ♲︎︎︎ `{}` *users, across* `{}` *chats*
 
-✅ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
-  **Maintenance by @Rendra264**
+✅ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs
 """
 
 buttons = [
@@ -383,7 +382,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://t.me/Rendraonebot"),
+                    InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/Rendraonebot"),
                  ],
                  [
                     InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="emiko_back"),
