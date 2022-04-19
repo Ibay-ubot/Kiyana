@@ -92,4 +92,3 @@ def languages(update: Update, context: CallbackContext) -> None:
 LANG_HANDLER = DisableAbleCommandHandler("langs", languages, run_async=True)
 
 dispatcher.add_handler(LANG_HANDLER)
-
